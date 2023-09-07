@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./base.css">
+    <!-- <link rel="stylesheet" href="./common.css"> -->
+    <style>
+        #header{
+            height: 55px;
+            padding-top: 20px;
+            padding-left: 65px;
+            /* padding-bottom: 20px; */
+            border-bottom: 1px solid black;
+        }
+        #header p{
+            display: inline-block;
+            font-size: 35px;
+            font-family: "DejaVu Serif";
+            font-weight: bold;
+            color: rgb(23,56,185)
+        }
+        #nav{
+            padding: 0 65px;
+        }
+        .nav-box p{
+            display: inline-block;
+            padding-top: 20px;
+            padding-bottom: 30px;
+            padding-right: 8px;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: Arial, Helvetica, sans-serif;
+            color:black
+        }
+        #nav-home{
+            color: rgb(23,56,185);
+        }
+        .index-show{
+            position: relative;
+            width: 1100px;
+            height: 600px;
+            /* padding-left: 65px; */
+            background-image: url(https://csci571.com/hw/hw3/images/Cutlery.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            /* background-size: contain; */
+            background-position: center center;
+        }
+        .fall-cut{
+            position: absolute;
+            top: 66px;
+            left: 55px;
+            height: 80px;
+            line-height: 80px;
+            font-family: "DejaVu Serif";
+            font-size: 53px;
+            font-weight: bold;
+            color: rgb(23,56,185);
+        }
+        .collection{
+            position: absolute;
+            top: 160px;
+            left: 55px;
+            height: 80px;
+            line-height: 80px;
+            font-family: "DejaVu Serif";
+            font-size: 53px;
+            font-weight: bold;
+            color:rgb(23,56,185);
+        }
+        .index-show div{
+            position: absolute;
+            top: 306px;
+            left: 55px;
+            height: 50px;
+            line-height: 50px;
+            padding-left:20px;
+            padding-right:20px;
+            background-color: #fff;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000;
+        }
+        .display-slogan{
+            padding-top: 50px;
+            padding-bottom: 30px;
+            text-align: center;
+            font-size: 30px;
+            font-family: "DejaVu Serif";
+            font-weight: bold;
+            color: rgb(23,56,185);
+        }
+        #style-display{
+            padding-left:65px;
+        }
+        .product-category li{
+            width: 530px;
+            float: left;
+            text-align: center;
+            padding-right: 40px ;
+        }
+        .product-category li img{
+            width: 100%;
+            height: 100%;
+        }
+        .product-category li div{
+            padding-top: 30px;
+            padding-bottom: 50px;
+            font-size: 20px;
+            font-family: "DejaVu Serif";
+            color: rgb(23,56,185);
+        }
+    </style>
+</head>
+<body>
+    <div id="header" class="">
+        <p>B&ouml;N</p>
+    </div>
+    <div id="nav">
+        <div class="nav-box">
+            <p id="nav-home">Home</p>
+            <p>Decor</p>
+            <p>Your Kitchen</p>
+            <p>Your Bathroom</p>
+            <p>Your Bedroom</p>
+            <p>About</p>
+            <p>Contact</p>
+        </div>
+        <div class="index-show">
+            <p class="fall-cut">Fall Cutlery</p>
+            <p class="collection">Collection</p>
+            <div>
+                Shop Now
+            </div>
+        </div>
+    </div>
+    <div id="style-display">
+        <div class="display-slogan">
+            Defining Styling Since 1965
+        </div>
+        <ul class="product-category">
+            <li>
+                <img src="https://csci571.com/hw/hw3/images/Decor.png" alt="">
+                <div class="product-scenarios">
+                    Decor
+                </div>
+            </li>
+            <li class="clearfix">
+                <img src="https://csci571.com/hw/hw3/images/Bedroom.png" alt="">
+                <div class="product-scenarios">
+                    Your Bedroom
+                </div>
+            </li>
+            <li>
+                <img src="https://csci571.com/hw/hw3/images/Kitchen.png" alt="">
+                <div class="product-scenarios">
+                    Your Kitchen
+                </div>
+            </li>
+            <li class="clearfix">
+                <img src="https://csci571.com/hw/hw3/images/Bathroom.png" alt="">
+                <div class="product-scenarios">
+                    Your Bathroom
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
