@@ -1,0 +1,21 @@
+.w {
+    width: max-content;
+    /* margin: 0 auto; */
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+/* 隐藏样式 */
+.hide, .none {
+    display: none;
+}
